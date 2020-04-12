@@ -7,7 +7,7 @@ export default function Index() {
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
                         <img className="profile rounded-circle"
-                             src="https://s.gravatar.com/avatar/950a07ddde653e95b154075cfb9369c6?s=180" alt=""/>
+                             src="https://s.gravatar.com/avatar/5a2181af432f7e87e8d505a17dd5254b?s=180" alt="https://rickynguyen.info"/>
                         <h3 className="name">NGUYỄN ĐỨC NGÂN</h3>
                         <h4 className="nickname">Ricky</h4>
                         <h6 className="tagline">Senior full-stack developer</h6>
