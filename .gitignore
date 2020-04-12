@@ -11,3 +11,4 @@ __pycache__
 docker-compose.override.yml
 node_modules
 .next
+build
