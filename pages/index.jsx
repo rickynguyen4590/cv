@@ -67,7 +67,8 @@ export default function Index() {
                             <p>
                                 Even though I can create an easy-to-use JS-lib for improving the team workload or create
                                 a modular application from scratch, I still believe that the hardest problem in this
-                                area is “how to motivate yourself and people around”. So, <b>I am looking forward to having
+                                area is “how to motivate yourself and people around”. So, <b>I am looking forward to
+                                having
                                 a change to resolve this problem with a long-term project</b>.
                             </p>
                             <p>I also have basic knowledge about deep-learning, BI, data-warehouse.</p>
@@ -135,7 +136,8 @@ export default function Index() {
                                     In this project, I implement the skeleton of the application, integrate with BI
                                     tool, cover the most of the main problems from front-end to backend. Planning and
                                     provide suggestion solutions with team and clients.<br/><br/>
-                                    <b>Success story: In production with more than 10 customer in Norwegian market.</b><br/>
+                                    <b>Success story: In production with more than 10 customer in Norwegian
+                                        market.</b><br/>
                                     Technologies: Zend, AngularJs, Enterprise Service Bus (ESB), Web Service, K8s,
                                     Docker, Jasper ETL
                                 </p>
@@ -211,7 +213,7 @@ export default function Index() {
 
             <footer className="footer">
                 <div className="text-center">
-
+                    Built with ❤ by Ricky Nguyen -  {(new Date).getFullYear()}
                 </div>
             </footer>
         </div>
