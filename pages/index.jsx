@@ -135,8 +135,7 @@ export default function Index() {
                                     In this project, I implement the skeleton of the application, integrate with BI
                                     tool, cover the most of the main problems from front-end to backend. Planning and
                                     provide suggestion solutions with team and clients.<br/><br/>
-                                    <b>Success story: In production with more than 10 customer in Norway
-                                        market.</b><br/>
+                                    <b>Success story: In production with more than 10 customer in Norwegian market.</b><br/>
                                     Technologies: Zend, AngularJs, Enterprise Service Bus (ESB), Web Service, K8s,
                                     Docker, Jasper ETL
                                 </p>
