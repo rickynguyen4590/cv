@@ -18,11 +18,8 @@ export default function Index() {
                                 href="mailto: ducngan90@gmail.com">
                                 ducngan90@gmail.com</a>
                             </li>
-                            <li className="phone"><i className="fas fa-phone"/>
-                                <a href="tel:(+84) 936 83 87 81">(+84) 936 83 87 81</a>
-                            </li>
                             <li className="website"><i className="fa fa-rss" aria-hidden="true"/>
-                                <a href="https://rickynguyen.info" target="_blank">https://rickynguyen.info</a>
+                                <a href="https://kikiguru.com" target="_blank">https://kikiguru.com</a>
                             </li>
                         </ul>
                     </div>
