@@ -178,7 +178,7 @@ export default function Index() {
                                     model. System allow student can register and book the lession online.
                                 </p>
                                 <p>
-                                    Technologies: ASP.NET MVC4, Entity Framwork, SOA
+                                    Technologies: ASP.NET MVC4, Entity Framework, SOA
                                 </p>
                             </div>
                         </div>
