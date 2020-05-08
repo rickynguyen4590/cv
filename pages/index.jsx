@@ -15,8 +15,8 @@ export default function Index() {
                     <div className="contact-container container-block">
                         <ul className="list-unstyled contact-list">
                             <li className="email"><i className="fas fa-envelope"/><a
-                                href="mailto: ducngan90@gmail.com">
-                                ducngan90@gmail.com</a>
+                                href="mailto: rickynguyen4590@gmail.com">
+                                rickynguyen4590@gmail.com</a>
                             </li>
                             <li className="website"><i className="fa fa-rss" aria-hidden="true"/>
                                 <a href="https://kikiguru.com" target="_blank">https://kikiguru.com</a>
