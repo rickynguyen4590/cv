@@ -7,7 +7,8 @@ export default function Index() {
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
                         <img className="profile rounded-circle"
-                             src="https://s.gravatar.com/avatar/5a2181af432f7e87e8d505a17dd5254b?s=180" alt="https://rickynguyen.info"/>
+                             src="https://s.gravatar.com/avatar/5a2181af432f7e87e8d505a17dd5254b?s=180"
+                             alt="https://rickynguyen.info"/>
                         <h3 className="name">NGUYỄN ĐỨC NGÂN</h3>
                         <h4 className="nickname">Ricky</h4>
                         <h6 className="tagline">Senior full-stack developer</h6>
@@ -55,11 +56,12 @@ export default function Index() {
                         </h2>
                         <div className="summary text-justify">
                             <p>
-                                I am a senior full-stack developer with <u>8 years experience</u> in web development
-                                with
-                                <em> not bad knowledge about my stack to from lower level like async-io, fpm workers
-                                    up to high level such as OOP and Design Pattern</em>,
-                                from improving the app performance to deploying this app into kubernetes cluster.
+                                I am a senior full-stack developer with <u>8 years of work experience</u> in software
+                                development
+                                with <b>6 years for build up an insurance system at enterprise level from scratch</b>.
+                                I have intensive knowledge about OOP and Design pattern and solid understanding of
+                                system architecture from lower level such as async-io, socket
+                                to high level like design a scalable web app and cloud native.
                             </p>
                             <p>
                                 Even though I can create an easy-to-use JS-lib for improving the team workload or create
@@ -75,29 +77,61 @@ export default function Index() {
                         <h2 className="section-title"><span className="icon-holder"><i
                             className="fas fa-rocket"/></span>SKILLS &amp; Proficiency</h2>
                         <div className="skillset row">
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">Web development</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '80%'}}/>
+                                    <div className="level-bar-text">4/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">JS/AngularJs</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '99%'}}/>
+                                    <div className="level-bar-text">4.99/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">PHP/Zend</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '80%'}}/>
+                                    <div className="level-bar-text">4/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">Design pattern</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '95%'}}/>
+                                    <div className="level-bar-text">4.8/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">Python/Flask</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '60%'}}/>
+                                    <div className="level-bar-text">3/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">Queue/Worker</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '90%'}}/>
+                                    <div className="level-bar-text">4.5/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">K8s/docker/gke</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '70%'}}/>
+                                    <div className="level-bar-text">3.5/5</div>
+                                </div>
                             </div>
-                            <div className="item col-6 col-md-4">
+                            <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">MySQL</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '60%'}}/>
+                                    <div className="level-bar-text">3/5</div>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -109,9 +143,9 @@ export default function Index() {
                             <div className="meta">
                                 <div className="upper-row">
                                     <h3 className="job-title">Senior full-stack developer</h3>
-                                    <div className="time">2014 - Present</div>
+                                    <div className="time">Noria AS | 2014 - Present</div>
                                 </div>
-                                <div className="company">Paris Web - Noria AS</div>
+                                <div className="company"><i className="fa fa-bookmark mr-1"/>Paris Web</div>
                             </div>
                             <div className="details text-justify">
                                 <p>Paris Web is a part of the insurance system provide a set of modules:<br/>
@@ -144,9 +178,9 @@ export default function Index() {
                             <div className="meta">
                                 <div className="upper-row">
                                     <h3 className="job-title">Software Engineer</h3>
-                                    <div className="time">2013 - 2014</div>
+                                    <div className="time">Contemi | 2013 - 2014</div>
                                 </div>
-                                <div className="company">Lincoln</div>
+                                <div className="company"><i className="fa fa-bookmark mr-1"/>Lincoln</div>
                             </div>
                             <div className="details text-justify">
                                 <p>
@@ -168,9 +202,9 @@ export default function Index() {
                             <div className="meta">
                                 <div className="upper-row">
                                     <h3 className="job-title">Software Engineer</h3>
-                                    <div className="time">2012 - 2013</div>
+                                    <div className="time">Contemi | 2012 - 2013</div>
                                 </div>
-                                <div className="company">SSDC</div>
+                                <div className="company"><i className="fa fa-bookmark mr-1"/>SSDC</div>
                             </div>
                             <div className="details text-justify">
                                 <p>
@@ -186,9 +220,9 @@ export default function Index() {
                             <div className="meta">
                                 <div className="upper-row">
                                     <h3 className="job-title">Developer</h3>
-                                    <div className="time">2012</div>
+                                    <div className="time">Contemi | 2012-2012</div>
                                 </div>
-                                <div className="company">Employee benefit</div>
+                                <div className="company"><i className="fa fa-bookmark mr-1"/>Employee benefit</div>
                             </div>
                             <div className="details text-justify">
                                 <p>
@@ -210,7 +244,7 @@ export default function Index() {
 
             <footer className="footer">
                 <div className="text-center">
-                    Built with ❤ by Ricky Nguyen -  {(new Date).getFullYear()}
+                    Built with ❤ by Ricky Nguyen - {(new Date).getFullYear()}
                 </div>
             </footer>
         </div>

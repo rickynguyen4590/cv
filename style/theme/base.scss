@@ -254,7 +254,8 @@ p {
 
   .company {
     margin-bottom: 10px;
-    color: $text-grey;
+    color: $text-blue;
+    font-size: 12pt;
   }
 
   .project-title {
@@ -287,13 +288,27 @@ p {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
+    margin-right: 1rem;
+    display: inline-block;
+    float: left;
+    min-width: 120px;
   }
 
 
   .level-bar {
-    height: 12px;
+    height: 15px;
+    position: relative;
     background: $smoky-white;
     @include border-radius(2px);
+  }
+
+  .level-bar-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
 
   .theme-progress-bar {
