@@ -3,6 +3,7 @@
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/shelf
+.idea/dbnavigator.xml
 .idea/**/contentModel.xml
 *.test.yaml
 .env
