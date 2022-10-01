@@ -16,8 +16,8 @@ export default function Index() {
                     <div className="contact-container container-block">
                         <ul className="list-unstyled contact-list">
                             <li className="email"><i className="fas fa-envelope"/><a
-                                href="mailto: rickynguyen4590@gmail.com">
-                                rickynguyen4590@gmail.com</a>
+                                href="mailto: ducngan90@gmail.com">
+                                ducngan90@gmail.com</a>
                             </li>
                             <li className="website"><i className="fa fa-rss" aria-hidden="true"/>
                                 <a href="https://kikiguru.com" target="_blank">https://kikiguru.com</a>
@@ -31,13 +31,17 @@ export default function Index() {
                             <h5 className="meta">Ho Chi Minh City University of Technology</h5>
                             <div className="time">2009 – 2014</div>
                         </div>
+                        <div className="item">
+                            <h4 className="degree">Google Cloud Certified - Professional Cloud Architect</h4>
+                            <div className="time">2021</div>
+                        </div>
                     </div>
 
                     <div className="languages-container container-block">
                         <h2 className="container-block-title">Languages</h2>
                         <ul className="list-unstyled interests-list">
                             <li>Vietnamese <span className="lang-desc">(Native)</span></li>
-                            <li>English <span className="lang-desc">(Professional)</span></li>
+                            <li>English <span className="lang-desc">(Fluent)</span></li>
                         </ul>
                     </div>
                     <div className="interests-container container-block">
@@ -56,26 +60,32 @@ export default function Index() {
                         </h2>
                         <div className="summary text-justify">
                             <p>
-                                I am a senior full-stack developer with <u>8 years of work experience</u> in software
+                                I am a senior full-stack developer with <u>10 years of work experience</u> in software
                                 development
-                                with <b>6 years for build up an insurance system at enterprise level from scratch</b>.
-                                I have intensive knowledge about OOP and Design pattern and solid understanding of
+                                with <b>8 years for build up an insurance system at enterprise level from scratch</b>.
+                                I have intensive knowledge about OOP and design pattern and solid understanding of
                                 system architecture from lower level such as async-io, socket
                                 to high level like design a scalable web app and cloud native.
                             </p>
                             <p>
-                                Even though I can create an easy-to-use JS-lib for improving the team workload or create
-                                a modular application from scratch, I still believe that the hardest problem in this
-                                area is “how to motivate yourself and people around”. So, <b>I am looking forward to
-                                having
-                                a change to resolve this problem with a long-term project</b>.
+                                I had experience in architecture design for large scale and enterprise application with SOA and cloud-based distribution system. I also have experiences about deep-learning, BI, data-warehouse.
                             </p>
-                            <p>I also have basic knowledge about deep-learning, BI, data-warehouse.</p>
                         </div>
                     </section>
                     <section className="skills-section section">
                         <h2 className="section-title"><span className="icon-holder"><i
-                            className="fas fa-rocket"/></span>SKILLS &amp; Proficiency</h2>
+                            className="fas fa-book"/></span>PERSONAL SKILLS</h2>
+                        <div className="summary text-justify">
+                            I am an open mind, active, clever and friendly person.
+                            I am a good understanding person and I can easy to work with different people in a different cultural environment.<br/>
+                            I enjoy motivating individuals and organizations to learn, reflect and improve.
+                            I like to solve difficult challenges and are known to keep calm during difficult and stressful situations.
+                        </div>
+                    </section>
+
+                    <section className="skills-section section">
+                        <h2 className="section-title"><span className="icon-holder"><i
+                            className="fas fa-rocket"/></span>Technology SKILLS &amp; Proficiency</h2>
                         <div className="skillset row">
                             <div className="item col-12 col-md-6">
                                 <h3 className="level-title text-nowrap">Web development</h3>
@@ -85,17 +95,24 @@ export default function Index() {
                                 </div>
                             </div>
                             <div className="item col-12 col-md-6">
-                                <h3 className="level-title text-nowrap">JS/AngularJs</h3>
-                                <div className="progress level-bar">
-                                    <div className="progress-bar theme-progress-bar" style={{'width': '99%'}}/>
-                                    <div className="level-bar-text">4.99/5</div>
-                                </div>
-                            </div>
-                            <div className="item col-12 col-md-6">
-                                <h3 className="level-title text-nowrap">PHP/Zend</h3>
+                                <h3 className="level-title text-nowrap">Software development</h3>
                                 <div className="progress level-bar">
                                     <div className="progress-bar theme-progress-bar" style={{'width': '80%'}}/>
                                     <div className="level-bar-text">4/5</div>
+                                </div>
+                            </div>
+                            <div className="item col-12 col-md-6">
+                                <h3 className="level-title text-nowrap">Insurance software development</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '90%'}}/>
+                                    <div className="level-bar-text">3/5</div>
+                                </div>
+                            </div>
+                            <div className="item col-12 col-md-6">
+                                <h3 className="level-title text-nowrap">Angular/AngularJs</h3>
+                                <div className="progress level-bar">
+                                    <div className="progress-bar theme-progress-bar" style={{'width': '99%'}}/>
+                                    <div className="level-bar-text">5/5</div>
                                 </div>
                             </div>
                             <div className="item col-12 col-md-6">
@@ -106,21 +123,7 @@ export default function Index() {
                                 </div>
                             </div>
                             <div className="item col-12 col-md-6">
-                                <h3 className="level-title text-nowrap">Python/Flask</h3>
-                                <div className="progress level-bar">
-                                    <div className="progress-bar theme-progress-bar" style={{'width': '60%'}}/>
-                                    <div className="level-bar-text">3/5</div>
-                                </div>
-                            </div>
-                            <div className="item col-12 col-md-6">
-                                <h3 className="level-title text-nowrap">Queue/Worker</h3>
-                                <div className="progress level-bar">
-                                    <div className="progress-bar theme-progress-bar" style={{'width': '90%'}}/>
-                                    <div className="level-bar-text">4.5/5</div>
-                                </div>
-                            </div>
-                            <div className="item col-12 col-md-6">
-                                <h3 className="level-title text-nowrap">K8s/docker/gke</h3>
+                                <h3 className="level-title text-nowrap">DevOps/K8s/docker</h3>
                                 <div className="progress level-bar">
                                     <div className="progress-bar theme-progress-bar" style={{'width': '70%'}}/>
                                     <div className="level-bar-text">3.5/5</div>
