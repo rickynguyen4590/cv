@@ -250,6 +250,9 @@ p {
     right: 0;
     top: 0;
     color: $text-grey;
+    a {
+      color: $text-grey;
+    }
   }
 
   .company {
@@ -291,7 +294,7 @@ p {
     margin-right: 1rem;
     display: inline-block;
     float: left;
-    min-width: 120px;
+    min-width: 160px;
   }
 
 
@@ -316,6 +319,23 @@ p {
   }
 }
 
+
+.personal-skills {
+  .item {
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+
+  .level-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    margin-right: 1rem;
+    display: inline-block;
+    float: left;
+    min-width: 120px;
+    font-weight: normal;
+  }
+}
 
 .footer {
   padding: 30px;
