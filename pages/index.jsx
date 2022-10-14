@@ -233,7 +233,7 @@ export default function Index() {
                             </div>
                             <div className="details text-justify">
                                 <p>
-                                    SSDC provide the system help Singapore Safety Driving Cent manage the bussiness
+                                    SSDC provide the system help Singapore Safety Driving Cent manage the business
                                     model. System allow student can register and book the lession online.
                                 </p>
                                 <p>
